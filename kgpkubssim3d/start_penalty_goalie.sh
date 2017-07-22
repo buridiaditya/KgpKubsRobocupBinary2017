@@ -8,7 +8,7 @@ BINARY_DIR="."
 LIBS_DIR="./libs"
 export LD_LIBRARY_PATH=$LIBS_DIR:$LD_LIBRARY_PATH
 
-team="KGPKUBS2.0"
+team="KgpKubs"
 host="localhost"
 port=3100
 paramsfile=paramfiles/defaultParams.txt
@@ -101,7 +101,7 @@ opt="${opt} --host=${host} --port ${port} --team ${team} ${paramsfile_args} --mh
 DIR="$( cd "$( dirname "$0" )" && pwd )" 
 cd $DIR
 
-"$BINARY_DIR/$AGENT_BINARY" $opt --unum 1 --type 4 --paramsfile paramfiles/defaultParams_t4.txt --pkgoalie &#> /dev/null &
+"$BINARY_DIR/$AGENT_BINARY" $opt --unum 1 --type 0 --paramsfile paramfiles/defaultParams_t0.txt --pkgoalie &#> /dev/null &
 #"$BINARY_DIR/$AGENT_BINARY" $opt --unum 1 --type 4 --paramsfile paramfiles/defaultParams_t4.txt --pkgoalie > stdoutgk 2> stderrgk &
 
 sleep 2

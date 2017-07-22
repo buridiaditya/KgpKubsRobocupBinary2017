@@ -8,7 +8,7 @@ BINARY_DIR="."
 LIBS_DIR="./libs"
 export LD_LIBRARY_PATH=$LIBS_DIR:$LD_LIBRARY_PATH
 
-team="KGPKUBS2.0"
+team="KgpKubs"
 host="localhost"
 port=3100
 paramsfile=paramfiles/defaultParams.txt

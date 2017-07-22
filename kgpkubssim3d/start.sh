@@ -1,15 +1,11 @@
 #!/bin/bash
-#
-# UT Austin Villa start script for 3D Simulation Competitions
-#
-
 
 AGENT_BINARY=agentspark
 BINARY_DIR="."
 LIBS_DIR="./libs"
 NUM_PLAYERS=11
 
-team="KgpKubsV_1.1"
+team="KgpKubs"
 host="localhost"
 port=3100
 paramsfile=paramfiles/defaultParams.txt
